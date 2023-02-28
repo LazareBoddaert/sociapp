@@ -1,4 +1,4 @@
-This is a demo of a social app made by following tutorial from JavaScript Mastery () whith few updates and modifications.
+This is a demo of a social app made by following tutorial from JavaScript Mastery (https://github.com/adrianhajdin/project_shareme_social_media) whith few updates and modifications.
 
 I followed this tutorial to learn/practice React.
 
