@@ -57,11 +57,13 @@ const Home = () => {
           <Sidebar user={user && user} closeToggle={setToggleSidebar} />
         </div>
       )}
-      <div className="mt-2 pb-2 flex-1 h-screen overflow-y-scroll" ref={scrollRef}>
-        <Routes>
-          <Route path="/user-profile/:userId" element={<UserProfile />} />
-          <Route path="/*" element={<Pins user={user && user} />} />
-        </Routes>
+      <div className="pb-2 flex-1 h-screen overflow-y-scroll" ref={scrollRef}>
+        <div className="pt-2">
+          <Routes>
+            <Route path="/user-profile/:userId" element={<UserProfile />} />
+            <Route path="/*" element={<Pins user={user && user} />} />
+          </Routes>
+        </div>
       </div>
     </div>
   )
