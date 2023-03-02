@@ -14,3 +14,6 @@ Updates :
 
 Other changes :
 tailwind.config.js
+
+
+Most photos used in this demo came from unsplash.com
